@@ -23,6 +23,7 @@ const Container = styled.div`
   padding: 0 10px;
   @media (min-width: 1280px) {
     width: 1280px;
+  }
 }
 `;
 
