@@ -43,7 +43,7 @@ const Header = () => {
     <Wrapper>
       <Date>SMARCH 32, 2018</Date>
       <Heading>Lambda Times</Heading>
-      <Temp className="temp">98°</Temp>
+      <Temp>98°</Temp>
     </Wrapper>
   )
 }
