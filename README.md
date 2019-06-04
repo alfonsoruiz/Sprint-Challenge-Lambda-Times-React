@@ -29,9 +29,19 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+    PropTypes are used to make sure componenents receieve the correct and expected data types necessary to function. Checking data types in Javascript is important because the dynamic nature of the language can sometimes lead to unexpected results. 
+
 - [ ] Describe a life-cycle event in React?
+    All React components have a life cycle in where they go through a mounting phase, and updating phase, and an unmounting phase. In the mounting phase, the constructor will be called and any initial state data will be set, the render method will then be envoked followed by componentDidMount. In the updating phase, any changes to state will trigger the render method once more followed by a call to componentDidUpdate. And in the unmounting phase the componentWillUnmount method will be envoked where components can be removed.
+
 - [ ] Explain the details of a Higher Order Component?
+
+    Higher Order Components is a function and react pattern that allows the re-use of component logic. It achieves this by taking in another component as an argument, adds any desired functionality and then return that new compoenent. 
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+    Components in react can be styled using regular CSS, libraries like React Bootstrap, or Styled Components. Styling through conventionaly use of CSS maybe more familiar but can lead to potential pecificity issues as well as be pontentially hard to navigate and find mappings for styles in large code base. React Bootstrap has alot of pre built components that can help build components be built quickly and efficiently but like CSS can lead to potential specificity issues as well as potentially be hard to find problems that arise in a large code base. Styled Components allow us to write CSS directly inside of component along with JavaScirpt and JSX. This encapsulates styling to specific omponents and reduces alot of the specificity issues that arise through the use of classes and more traditional CSS.
 
 ## Project Setup
 
