@@ -33,6 +33,7 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
     PropTypes are used to make sure componenents receieve the correct and expected data types necessary to function. Checking data types in Javascript is important because the dynamic nature of the language can sometimes lead to unexpected results. 
 
 - [ ] Describe a life-cycle event in React?
+
     All React components have a life cycle in where they go through a mounting phase, and updating phase, and an unmounting phase. In the mounting phase, the constructor will be called and any initial state data will be set, the render method will then be envoked followed by componentDidMount. In the updating phase, any changes to state will trigger the render method once more followed by a call to componentDidUpdate. And in the unmounting phase the componentWillUnmount method will be envoked where components can be removed.
 
 - [ ] Explain the details of a Higher Order Component?
